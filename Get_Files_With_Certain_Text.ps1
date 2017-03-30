@@ -1,0 +1,2 @@
+Get-ChildItem -recurse | Select-String -pattern "dummy" | group path | select name
+# Place the text you wish to search for in "dummy", this will return the path locations to all files which contain such text.
